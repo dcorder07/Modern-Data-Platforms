@@ -1,4 +1,3 @@
-
 def todo() -> None:
     listo = []
     while True:
