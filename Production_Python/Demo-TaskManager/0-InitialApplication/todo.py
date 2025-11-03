@@ -1,4 +1,4 @@
-# -- ignore ---
+"""A simple command-line to-do list app that lets users add, view, and remove tasks."""
 
 def todo(listo: list = None) -> None:
 
@@ -35,6 +35,6 @@ def todo(listo: list = None) -> None:
         else:
             print("Invalid choice.")
             print("-" * 50)
-# changes made here
+
+
 todo()
-# -- ignore ---
