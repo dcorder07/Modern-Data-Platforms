@@ -1,5 +1,9 @@
-def todo() -> None:
-    listo = []
+def todo(listo: list = None) -> None:
+    
+    if listo is None:
+        listo = []
+    
+
     while True:
         print("1. Add Task")
         print("2. View Tasks")
@@ -31,6 +35,4 @@ def todo() -> None:
             print("Invalid choice.")
             print("-"*50)
 
-
-#change here
 todo()
