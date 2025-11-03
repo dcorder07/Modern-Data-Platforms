@@ -35,7 +35,6 @@ def todo(listo: list = None) -> None:
         else:
             print("Invalid choice.")
             print("-" * 50)
-
-
+# changes made here
 todo()
 # -- ignore ---
