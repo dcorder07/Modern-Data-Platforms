@@ -1,11 +1,11 @@
+from data_processing.cleaning import remove_duplicates 
+from data_processing.transforming import capitalise_strings
+
 sample_list = [1, 2, 2, 3, 4, 4, 5]
 sample_listofstrings = ["apple", "banana", "apple", "cherry"]
 
-from data_processing import cleaning, transforming
-
-
-cleaned_list = cleaning.remove_duplicates(sample_list)
+cleaned_list = remove_duplicates(sample_list)
 print(cleaned_list)
 
-transformed_list = transforming.capitalise_strings(sample_listofstrings)
+transformed_list = capitalise_strings(sample_listofstrings)
 print(transformed_list)
