@@ -9,4 +9,3 @@ print(cleaned_list)
 
 transformed_list = transforming.capitalise_strings(sample_listofstrings)
 print(transformed_list)
-
