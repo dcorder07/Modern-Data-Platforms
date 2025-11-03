@@ -1,5 +1,4 @@
-# code to create a todo list app with type hinting
-
+# -- ignore ---
 
 def todo(listo: list = None) -> None:
 
