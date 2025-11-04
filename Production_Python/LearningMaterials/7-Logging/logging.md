@@ -100,7 +100,7 @@ A `LogRecord` encapsulates all the information needed to define the status of an
 """A script to demonstrate the logging module"""
 import logging
 
-logging.basicConfig(level='ERROR',format='%(levelname)s - %(asctime)s - %(message)s - %(module)s', filename='tutorial.log', filemode = 'w')
+logging.basicConfig(level='ERROR',format='%(level)s - %(asctime)s - %(message)s - %(module)s', filename='tutorial.log', filemode = 'w')
 logging.debug("This is a debug message") # Detailed information, typically useful for debugging purposes
 logging.info("This is a info message") # General information about the progress or state of the program
 logging.warning("This is a warning message") # Indication of a potential problem or a non-fatal issue that deserves attention

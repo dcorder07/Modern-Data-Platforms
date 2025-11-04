@@ -1,0 +1,3 @@
+2025-11-04 14:39:15,205 - __main__ - WARNING - This is a warning message - 23
+2025-11-04 14:39:15,206 - __main__ - ERROR - This is a error message - 24
+2025-11-04 14:39:15,206 - __main__ - CRITICAL - This is a critical message - 25
