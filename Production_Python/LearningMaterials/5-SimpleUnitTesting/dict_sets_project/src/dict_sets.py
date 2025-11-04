@@ -6,7 +6,7 @@ def cleanup_address_book(address_book):
         if len(name)==1:
             fname=name[0].capitalize()
             if len(v)>7:
-                v1=v[0:-6]+' '+v[-6:]
+                v1=v[0:-7]+' '+v[-7:]
                 new_ab[fname]=v1
             else:
                 new_ab[fname]=v
@@ -14,7 +14,7 @@ def cleanup_address_book(address_book):
             fname=name[0].capitalize()
             lname=name[1].capitalize()
             if len(v)>7:
-                v1=v[0:-6]+' '+v[-6:] 
+                v1=v[0:-7]+' '+v[-7:]
                 new_ab[fname+' '+lname]=v1
             else:
                 new_ab[fname+' '+lname]=v
