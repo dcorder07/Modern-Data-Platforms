@@ -32,7 +32,7 @@ def search_address_book(address_book, search_string):
 def count_vowels(input_string):
     vowel_count = {"a": 0, "e": 0, "i": 0, "o": 0, "u": 0}
     for vowel in vowel_count:
-        vowel_count[vowel] = input_string.upper().count(vowel)
+        vowel_count[vowel] = input_string.().count(vowel)
     return vowel_count
 
 def get_names_in_common(address_book1, address_book2):

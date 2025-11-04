@@ -8,3 +8,7 @@ def subtract(num_1, num_2):
 
 
 print("Hello world!")
+
+if __name__ == "__main__":
+    print("This is the main module.")
+    print(f"Addition: {add(5, 3)}")
