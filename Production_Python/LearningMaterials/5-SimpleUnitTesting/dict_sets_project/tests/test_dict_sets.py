@@ -1,10 +1,12 @@
+"""testing file for dict_sets.py"""
 from src.dict_sets import cleanup_address_book, search_address_book, count_vowels
 from src.dict_sets import get_names_in_common, get_numbers_in_common, combine_address_books
 
 def test_cleanup_address_book():
+    """unit tests for cleanup_address_book function"""
     #arrange
     input_address_book = {
-        "john doe": "1234567890",
+        "john doe": 1234567890,
         "JANE SMITH": "0987654321",
         "alice": "5551234",
         "BOB": "5556789"
@@ -21,6 +23,7 @@ def test_cleanup_address_book():
     assert actual_output == expected_output
 
 def test_search_address_book():
+    """unit tests for search_address_book function"""
     #arrange
     input_address_book = {
         "John Doe": "123 4567890",
@@ -38,6 +41,7 @@ def test_search_address_book():
     assert actual_output == expected_output
 
 def test_count_vowels():
+    """unit tests for count_vowels function"""
     #arrange
     input_string = "Hello World! This is a Test String."
     expected_output = {"a": 1, "e": 2, "i": 3, "o": 2, "u": 0}
@@ -47,6 +51,7 @@ def test_count_vowels():
     assert actual_output == expected_output
 
 def test_get_names_in_common():
+    """unit tests for get_names_in_common function"""
     #arrange
     address_book1 = {
         "John Doe": "123 4567890",
@@ -65,6 +70,7 @@ def test_get_names_in_common():
     assert actual_output == expected_output
 
 def test_get_numbers_in_common():
+    """unit tests for get_numbers_in_common function"""
     #arrange
     address_book1 = {
         "John Doe": "123 4567890",
@@ -83,6 +89,7 @@ def test_get_numbers_in_common():
     assert actual_output == expected_output
 
 def test_combine_address_books():
+    """unit tests for combine_address_books function"""
     #arrange
     address_book1 = {
         "John Doe": "123 4567890",
