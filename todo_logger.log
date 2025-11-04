@@ -1,0 +1,10 @@
+2025-11-04 15:15:29,677 - todo_logger - INFO - Task added: wash
+2025-11-04 15:15:32,507 - todo_logger - INFO - Tasks viewed
+2025-11-04 15:15:34,043 - todo_logger - INFO - Tasks viewed
+2025-11-04 15:15:38,312 - todo_logger - INFO - Task added: clean
+2025-11-04 15:15:39,486 - todo_logger - INFO - Tasks viewed
+2025-11-04 15:15:39,488 - todo_logger - INFO - Tasks viewed
+2025-11-04 15:15:40,010 - todo_logger - ERROR - Invalid number entry: 
+2025-11-04 15:15:40,300 - todo_logger - INFO - Tasks viewed
+2025-11-04 15:15:40,301 - todo_logger - INFO - Tasks viewed
+2025-11-04 15:15:52,241 - todo_logger - INFO - Exiting the application
